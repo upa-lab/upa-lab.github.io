@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 header_image: /assets/images/shownet.jpg
 ---
 
@@ -49,6 +50,8 @@ Information Technology Center, The University of Tokyo, 6-2-3 Kashiwanoha, Kashi
 
 ## 研究室を志望する学生さんへ
         
+[工学系研究科 電気系工学専攻](https://www.eeis.t.u-tokyo.ac.jp/)で大学院学生を受け入れています。
+
 本研究室は、情報通信ネットワークとシステムソフトウェアを主な対象としています。もう少し具体的に言うと、インターネットを構成するプロトコルや経路制御技術、OSにおけるネットワークプロトコルスタックの実装やI/Oなど、比較的低レイヤ(ネットワーク的に言うとLayer-3以下、オペレーティングシステム的に言うとSystem callより下あたり)を構成するシステムやソフトウェアが研究領域です。
 
 
