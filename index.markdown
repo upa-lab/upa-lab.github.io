@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home
 header_image: /assets/images/shownet.jpg
 ---
 
