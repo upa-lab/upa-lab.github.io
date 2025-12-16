@@ -1,0 +1,45 @@
+---
+---
+
+$content-width: 75%;
+
+@import "{{ site.theme }}";
+
+.page-header-image {
+  position: relative;
+}
+
+.page-header-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.page-header-image .header-text {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+
+/* flex containers */
+div.img {       text-align: center;     margin: 10px 0px 30px 0px; }
+div.img img {   max-width: 100%;        margin: 0 0 0 0; }
+
+div.row-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+}
+
+div.row-container div {
+        padding: 5px;
+}
+
+/* inline img */
+p img { margin: 20px 0px 20px 0px; }
