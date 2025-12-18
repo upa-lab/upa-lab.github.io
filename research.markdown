@@ -14,7 +14,7 @@ permalink: /research/
 * インターネット全体のBGP Pathのレイテンシ計測: [A First Measurement with BGP Egress Peer Engineering](https://link.springer.com/chapter/10.1007/978-3-030-98785-5_9)
 
 <p align="center">
-<img src="{{ '/assets/images/research-epe-msmt.png' | relative_url }}" style="width:95%;">
+<img src="{{ '/assets/images/research-epe-msmt.png' | relative_url }}" class="responsive-content-img">
 </p>
 <p align="center">
 <a href="https://blog.apnic.net/2022/03/10/measuring-the-potential-benefit-of-egress-traffic-engineering-with-segment-routing/" target="_blank">Measuring the Internet with BGP-EPE over Segment Routing</a>
@@ -31,7 +31,7 @@ permalink: /research/
 
 
 <p align="center">
-<img src="{{ '/assets/images/research-mscp.png' | relative_url }}" style="width:90%;">
+<img src="{{ '/assets/images/research-mscp.png' | relative_url }}" class="responsive-content-img">
 </p>
 <p align="center">
   mscp (<a href="https://github.com/upa/mscp" target="_blank">https://github.com/upa/mscp</a>) copies files over multiple SSH connections.

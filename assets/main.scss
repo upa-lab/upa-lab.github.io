@@ -41,5 +41,35 @@ div.row-container div {
         padding: 5px;
 }
 
+/* Mobile responsive */
+@media (max-width: 768px) {
+        .wrapper {
+                max-width: 90%;
+        }
+
+        div.row-container {
+                flex-direction: column;
+        }
+
+        div.row-container div.img {
+                width: 100%;
+        }
+
+        div.row-container div.img img {
+                width: 100%;
+        }
+}
+
 /* inline img */
 p img { margin: 20px 0px 20px 0px; }
+
+/* responsive content image */
+.responsive-content-img {
+        width: 90%;
+}
+
+@media (max-width: 768px) {
+        .responsive-content-img {
+                width: 100%;
+        }
+}
