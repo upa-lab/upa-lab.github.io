@@ -42,9 +42,9 @@ permalink: /research/
 
 ### Network Operation
 
-インターネットは世界中のネットワークオペレータの不断の努力によって維持されています。
+インターネットは世界中のネットワークオペレータの不断の努力に支えられています。
 
-今日もどこかで誰かが、ネットワークに問題があればその原因を特定して修正し、将来に向けた設計を行い、必要に応じて拡張したりと、日々の運用を行っています。こうしたネットワークの運用を楽にするための研究にも取り組んでいます。とくに近年は生成AIのネットワーク運用への利用について積極的に研究を行っています。
+今日もどこかで誰かが、ネットワークに問題があればその原因を特定して修正し、将来に向けた設計を行い、必要に応じて拡張したりと、日々の運用を行っています。こうしたネットワークの運用を楽にするための研究にも取り組んでいます。とくに近年は生成AIのネットワーク運用への活用についても取り組んでいます。
 
 * [LLMでネットワーク構築運用支援実験@Interop Tokyo 2025 ShowNet](https://www.janog.gr.jp/meeting/janog56/shownet/), JANOG56
 * [An Experiment of SRv6 Service Chaining at Interop Tokyo 2019 ShowNet](https://datatracker.ietf.org/doc/html/draft-upa-srv6-service-chaining-exp-00), Internet Draft
