@@ -6,9 +6,9 @@ permalink: /
 lang: en
 ---
 
-Ryo Nakamura Laboratory focuses on data communication networks and system software. The lab is a part of the [Network Research Division, Information Technology Center](https://www.itc.u-tokyo.ac.jp/network/en/overview/) and the [Department of Electrical Engineering and Information Systems, Graduate School of Engineering](https://www.eeis.t.u-tokyo.ac.jp/en/), in the University of Tokyo.
+Ryo Nakamura Laboratory focuses on data communication networks and system software. We belong to [Network Research Division, Information Technology Center](https://www.itc.u-tokyo.ac.jp/network/en/overview/) and the [Department of Electrical Engineering and Information Systems, Graduate School of Engineering](https://www.eeis.t.u-tokyo.ac.jp/en/), in the University of Tokyo.
 
-Our main research areas include the Internet, routing technologies, network virtualization, high-performance networks, and network subsystems of Operating Systems. With a focus on technologies that constitute data communication networks represented by the Internet, we conduct research aimed at further advancing and enhancing network functionality and performance.
+Our research areas include the Internet, routing technologies, network virtualization, high-performance networks, and network subsystems of Operating Systems. With a focus on technologies that constitute data communication networks represented by the Internet, we conduct research aimed at further advancing and enhancing network functionality and performance.
 
 <div class="row-container">
 <div class="img"><img src="{{ '/assets/images/fws-and-ex.jpeg' | relative_url }}"/>
