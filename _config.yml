@@ -31,14 +31,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 plugins:
   - jekyll-feed
-
-# Navigation
-header_pages:
-  - index.markdown
-  - research.markdown
-  - publications.markdown
+  - jekyll-polyglot
 
 google_analytics: G-44SYW2SJCC
+
+languages: [ "ja", "en" ]
+default_lang: "ja"
+exclude_from_localization: ["assets/"]
+parallel_localization: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

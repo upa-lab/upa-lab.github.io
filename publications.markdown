@@ -6,7 +6,7 @@ permalink: /publications/
 
 # Publications
 
-研究室ができる2024年よりも前の論文を含むリストは[こちら](https://haeena.dev/upa/)
+For a complete list including papers prior to 2024 when the lab was established, please see [here](https://haeena.dev/upa/).
 
 ### 2025
 

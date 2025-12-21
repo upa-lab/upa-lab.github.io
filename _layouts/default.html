@@ -10,9 +10,33 @@
     <div class="page-header-image">
       <img src="{{ page.header_image | relative_url }}" alt="{{ page.title }}">
       <div class="header-text"> Photo at Interop Tokyo ShowNet </div>
-      
+
     </div>
     {% endif %}
+
+    <div class="language-switcher-bar">
+      <div class="wrapper">
+        [{%- for lang in site.languages -%}
+          {%- if lang == site.active_lang -%}
+            <strong>{{ lang }}</strong>
+            {%- else -%}
+            {%- capture base_url -%}
+              {%- if site.active_lang == site.default_lang -%}
+                {{ page.url }}
+              {%- else -%}
+                {{ page.url | remove_first: '/en' }}
+              {%- endif -%}
+            {%- endcapture -%}
+            {%- if lang == site.default_lang -%}
+              <a href=" {{ page.url }}">{{ lang }}</a>
+            {%- else -%}
+              <a href="/{{ lang }}{{ page.url }}">{{ lang }}</a>
+            {%- endif -%}
+          {%- endif -%}
+          {%- unless forloop.last -%} | {%- endunless -%}
+        {%- endfor -%}]
+      </div>
+    </div>
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">

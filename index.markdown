@@ -2,6 +2,8 @@
 layout: home
 title: Home
 header_image: /assets/images/shownet.jpg
+permalink: /
+lang: ja
 ---
 
 中村研究室は [東京大学 情報基盤センター ネットワーク研究部門](https://www.itc.u-tokyo.ac.jp/network/overview/)、[東京大学 工学系研究科 電気系工学専攻](https://www.eeis.t.u-tokyo.ac.jp/) 所属の、情報通信ネットワークとシステムソフトウェアを専門とする研究室です。
