@@ -5,6 +5,16 @@ $content-width: 75%;
 
 @import "{{ site.theme }}";
 
+/* Fix navigation dropdown z-index on mobile */
+.site-header {
+  position: relative;
+  z-index: 100;
+}
+
+.site-nav {
+  z-index: 100;
+}
+
 .page-header-image {
   position: relative;
 }
