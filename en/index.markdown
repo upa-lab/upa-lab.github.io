@@ -6,9 +6,9 @@ permalink: /
 lang: en
 ---
 
-Ryo Nakamura Laboratory focuses on data communication networks and system software. The lab is a part of the [Network Research Division, Information Technology Center](https://www.itc.u-tokyo.ac.jp/network/overview/) and the [Department of Electrical Engineering and Information Systems, Graduate School of Engineering](https://www.eeis.t.u-tokyo.ac.jp/), in the University of Tokyo.
+Ryo Nakamura Laboratory focuses on data communication networks and system software. The lab is a part of the [Network Research Division, Information Technology Center](https://www.itc.u-tokyo.ac.jp/network/en/overview/) and the [Department of Electrical Engineering and Information Systems, Graduate School of Engineering](https://www.eeis.t.u-tokyo.ac.jp/en/), in the University of Tokyo.
 
-Our main research areas include the Internet, information and communication networks, routing technologies, network virtualization, high-performance networks, system software, and OS network subsystems. With a focus on technologies that constitute information and communication networks represented by the Internet, we conduct research aimed at further advancing and enhancing network functionality and performance.
+Our main research areas include the Internet, routing technologies, network virtualization, high-performance networks, and network subsystems of Operating Systems. With a focus on technologies that constitute data communication networks represented by the Internet, we conduct research aimed at further advancing and enhancing network functionality and performance.
 
 <div class="row-container">
 <div class="img"><img src="{{ '/assets/images/fws-and-ex.jpeg' | relative_url }}"/>
@@ -52,9 +52,14 @@ Our laboratory, together with other faculty members from the Network Research Di
 
 ## For Prospective Students
 
-We accept graduate students in the [Department of Electrical Engineering and Information Systems, Graduate School of Engineering, The University of Tokyo](https://www.eeis.t.u-tokyo.ac.jp/).
+We accept graduate students in the [Department of Electrical Engineering and Information Systems, Graduate School of Engineering, The University of Tokyo](https://www.eeis.t.u-tokyo.ac.jp/en/).
 
-Our laboratory primarily focuses on information and communication networks and system software. More specifically, our research areas include network protocols and routing technologies that constitute the Internet, network protocol stacks and I/O in operating systems, and other systems and software that comprise relatively low layers (below Layer-4 in networking terms, and below the system call layer in OS terms).
+Our laboratory primarily focuses on data communication networks and
+system software. More specifically, our research areas include network
+protocols and routing technologies that constitute the Internet,
+network protocol stacks and I/O in operating systems, in other words,
+below Layer-4 in networking terms, and below the system call layer in
+OS terms.
 
 
 <p align="center">

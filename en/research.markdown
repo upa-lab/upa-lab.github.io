@@ -47,7 +47,8 @@ The Internet is supported by the continuous efforts of network operators around 
 
 Every day, somewhere, someone investigates and fixes network troubles, plans for the future, expands as needed, and performs daily operations. We are also working on research to make network operations easier. In recent years, we have particularly focused on leveraging LLMs for network operations.
 
-* [Experiment on LLM-assisted Network Construction and Operation Support at Interop Tokyo 2025 ShowNet](https://www.janog.gr.jp/meeting/janog56/shownet/), JANOG56
+* [Experiment on LLM-assisted Network Construction and Operation Support at Interop Tokyo 2025 ShowNet](https://www.janog.gr.jp/meeting/janog56/shownet/), Japan Network Operators' Group (JANOG) 56th Meeting
+* [Segment Routing Deployments and Demonstrations at Interop Tokyo ShowNet](https://2024.apricot.net/assets/files/APIC378/shownet-apricot-sr_1709207447.pdf), Asia Pacific Regional Internet Conference on Operational Technologies (APRICOT) 2024
 * [An Experiment of SRv6 Service Chaining at Interop Tokyo 2019 ShowNet](https://datatracker.ietf.org/doc/html/draft-upa-srv6-service-chaining-exp-00), Internet Draft
 
 
