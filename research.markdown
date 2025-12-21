@@ -5,8 +5,9 @@ header_image: /assets/images/shownet.jpg
 permalink: /research/
 ---
 
+# Research
 
-# Network Architecture and Routing
+### Network Architecture and Routing
 
 ネットワークにおいて、パケットを適切な宛先へより効率的に運ぶための仕組みが経路制御(Routing)です。ネットワークのあり方は、インターネット全体から、通信事業者のキャリアネットワーク、大規模なデータセンターネットワーク、5Gなどのモバイルネットワーク、エンタープライズ環境のようなキャンパスネットワークなど多種多様であり、それぞれに異なる技術的な要件と課題があります。そうした様々なネットワークにおける課題や機能の高度化に取り組んでいます。
 
@@ -21,7 +22,7 @@ permalink: /research/
 </p>
 
 
-# System Software and Network Subsystem
+### System Software and Network Subsystem
 
 ネットワークごしにパケットを送受信するコンピュータ、より具体的に言えばNetwork Interface CardといったPeripheralデバイスや、Operating Systemによるパケット処理そのもの(Network I/O)も研究対象です。OSのデバイスドライバのレイヤにおける機能追加や、アプリケーション側の工夫のによって使い勝手や性能向上を実現する研究にも取り組んでいます。
 
@@ -39,7 +40,7 @@ permalink: /research/
 
 
 
-# Network Operation
+### Network Operation
 
 インターネットは世界中のネットワークオペレータの不断の努力によって維持されています。
 

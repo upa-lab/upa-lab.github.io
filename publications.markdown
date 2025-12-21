@@ -4,6 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
+# Publications
+
 研究室ができる2024年よりも前の論文を含むリストは[こちら](https://haeena.dev/upa/)
 
 ### 2025
