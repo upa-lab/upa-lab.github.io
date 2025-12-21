@@ -38,6 +38,7 @@ header_pages:
   - research.markdown
   - publications.markdown
 
+google_analytics: G-44SYW2SJCC
 
 # Exclude from processing.
 # The following items will not be processed, by default.
