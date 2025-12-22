@@ -10,7 +10,7 @@ lang: ja
 
 ### Network Architecture and Routing
 
-ネットワークにおいて、パケットを適切な宛先へより効率的に運ぶための仕組みが経路制御(Routing)です。ネットワークのあり方は、インターネット全体から、通信事業者のキャリアネットワーク、大規模なデータセンターネットワーク、5Gなどのモバイルネットワーク、エンタープライズ環境のようなキャンパスネットワークなど多種多様であり、それぞれに異なる技術的な要件と課題があります。そうした様々なネットワークにおける課題や機能の高度化に取り組んでいます。
+ネットワークにおいて、パケットを適切な宛先へより効率的に運ぶための仕組みが経路制御(Routing)です。ネットワークのあり方は、総体としてのインターネットだけでなく、通信事業者のキャリアネットワーク、大規模なデータセンターネットワーク、5Gなどのモバイルネットワーク、エンタープライズ環境のようなキャンパスネットワークなど多種多様であり、それぞれに異なる技術的な要件と課題があり、必要なRoutingや機能も異なります。そうした様々なネットワークにおける課題や機能の高度化に取り組んでいます。
 
 * データセンターネットワークにおけるロードバランサの研究: [Exploiting SRv6 for Stateless and Per-Connection-Consistent Load Balancing](https://ieeexplore.ieee.org/document/10555263)
 * インターネット全体のBGP Pathのレイテンシ計測: [A First Measurement with BGP Egress Peer Engineering](https://link.springer.com/chapter/10.1007/978-3-030-98785-5_9)
@@ -25,7 +25,7 @@ lang: ja
 
 ### System Software and Network Subsystem
 
-ネットワークごしにパケットを送受信するコンピュータ、より具体的に言えばNetwork Interface CardといったPeripheralデバイスや、Operating Systemによるパケット処理そのもの(Network I/O)も研究対象です。OSのデバイスドライバのレイヤにおける機能追加や、アプリケーション側の工夫のによって使い勝手や性能向上を実現する研究にも取り組んでいます。
+ネットワークごしにパケットを送受信するコンピュータ、より具体的に言えばNetwork Interface CardなどのPeripheralデバイスや、Operating Systemによるパケット処理そのもの(Network I/O)も研究対象です。OSのパケット処理機構への機能の追加や、アプリケーション側の工夫によって、使い勝手や性能を向上するための研究にも取り組んでいます。
 
 * コンテナネットワークスタックの高速化: [Grafting Sockets for Fast Container Networking](https://dl.acm.org/doi/10.1145/3230718.3230723)
 * PCIe Transaction Layerをover-IPでSoftwareで実装: [NetTLP: A Development Platform for PCIe devices in Software Interacting with Hardware](https://www.usenix.org/conference/nsdi20/presentation/kuga)
@@ -45,7 +45,7 @@ lang: ja
 
 インターネットは世界中のネットワークオペレータの不断の努力に支えられています。
 
-今日もどこかで誰かが、ネットワークに問題があればその原因を特定して修正し、将来に向けた設計を行い、必要に応じて拡張したりと、日々の運用を行っています。こうしたネットワークの運用を楽にするための研究にも取り組んでいます。とくに近年は生成AIのネットワーク運用への活用についても取り組んでいます。
+今日もどこかで誰かが、ネットワークに問題があればその原因を特定して修正し、将来に向けた設計を行い、必要に応じて拡張したりと、日々の運用を担っています。こうしたネットワークの運用を楽にするための研究にも取り組んでいます。とくに近年は生成AIのネットワーク運用への活用についても取り組んでいます。
 
 * [LLMでネットワーク構築運用支援実験@Interop Tokyo 2025 ShowNet](https://www.janog.gr.jp/meeting/janog56/shownet/),  JANOG56 Meeting
 * [Segment Routing Deployments and Demonstrations at Interop Tokyo ShowNet](https://2024.apricot.net/assets/files/APIC378/shownet-apricot-sr_1709207447.pdf), Asia Pacific Regional Internet Conference on Operational Technologies (APRICOT) 2024
