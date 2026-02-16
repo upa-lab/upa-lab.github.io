@@ -10,6 +10,10 @@ For a complete list including papers prior to 2024 when the lab was established,
 
 ### 2025
 
+* 空閑 洋平, 中村 遼. DMA通信の可観測性向上手法の検討. 研究報告システ
+  ムソフトウェアとオペレーティング・システム(OS), 2026-OS-170, 15,
+  p. 1-7, 2026年1月
+
 * 中村 誠, 中村 遼, 有馬 和美, 佐々木 馨, 山肩 洋子, 伊藤 研一郎, 西島
   学, 宮嵜 洋, 石崎 勉, 玉造 潤史, 雨宮 智浩, 千葉 滋, 田浦 健次朗,
   UTokyo Azure: クラウドコンピューティングサービスの学内展開, 学術情報
@@ -21,7 +25,7 @@ For a complete list including papers prior to 2024 when the lab was established,
   IA2025-38, pp.15-21, November 2025
 
 * 井爪 優輔, 空閑 洋平, 中村 遼. NUMAアクセスによるCXLメモリの初期性能
-  測定. 研究報告システムソフトウェアとオペレーティング・システム（OS）,
+  測定. 研究報告システムソフトウェアとオペレーティング・システム(OS),
   2025-OS-169, 2, p. 1-8, 2025年09月
 
 * Ryo Nakamura, Haruki Nakamura, Kazuya Okada, and Ryosuke
