@@ -10,6 +10,10 @@ Ryo Nakamura Laboratory focuses on data communication networks and system softwa
 
 Our research areas include the Internet, routing technologies, network virtualization, high-performance networks, and network subsystems of Operating Systems. With a focus on technologies that constitute data communication networks represented by the Internet, we conduct research aimed at further advancing and enhancing network functionality and performance.
 
+* Recent Research Topics: [Research](/research/)
+* Publication List: [Publications](/publications/)
+
+
 <div class="row-container">
 <div class="img"><img src="{{ '/assets/images/fws-and-ex.jpeg' | relative_url }}"/>
 <p>Testing Routing Protocols</p></div>
@@ -18,9 +22,6 @@ Our research areas include the Internet, routing technologies, network virtualiz
 <div class="img"><img src="{{ '/assets/images/nettlp-env.jpeg' | relative_url }}"/>
 <p><a href="https://haeena.dev/nettlp">NetTLP</a> experiment</p></div>
 </div>
-
-* [Research](/research/)
-* [Publications](/publications/)
 
 
 ## Member
@@ -61,6 +62,10 @@ network protocol stacks and I/O in operating systems, in other words,
 below Layer-4 in networking terms, and below the system call layer in
 OS terms.
 
+Students identify problems that cannot be solved by current techniques,
+propose and implement new methods to address them, and verify their
+effectiveness through experiments.
+
 
 <p align="center">
 <img src="{{ '/assets/images/our-focus.png' | relative_url }}" class="responsive-content-img">
@@ -68,7 +73,7 @@ OS terms.
 
 We are looking for highly motivated students with technical interests in this domain, such as:
 
-* Interest in network design, construction, and operation
+* Interest in design, construction, and operation of computer networks
 * Understanding of packets, routers, and operating systems
 * Passion for relatively low-layer, e.g., packet-level and kernel-level, programming
 
