@@ -10,6 +10,11 @@ For a complete list including papers prior to 2024 when the lab was established,
 
 Years refer to the Japanese fiscal year (April to March).
 
+### 2026
+
+* Takashi Tomine, Ryo Nakamura, and Satoshi Uda. Exploring Geographical Interconnections between National Research and Education Networks. In the 29th Conference on Innovation in Clouds, Internet and Networks (ICIN 2026), Athens, Greece, April 2026.
+
+
 ### 2025
 
 * 中村 遼, 上野 幸杜, 長沖 彰, 藤原 達弥, 空閑洋平. NICオフロードを前提とした固定長バッファによる高速通信方式の検討. 電子情報通信学会 信学技報, vol.125, no. 379, IA2025-77, pp.9-14, 2026年3月
