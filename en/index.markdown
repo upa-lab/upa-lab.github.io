@@ -32,10 +32,14 @@ Our research areas include the Internet, routing technologies, network virtualiz
 
 ### Student
 
-* Rin Suzuki (M2)
-* Jaesol Ahn (M1)
-* Yusuke Izume (M1)
+* Jaesol Ahn (M2)
+* Yusuke Izume (M2)
+* Atsuya Osaki (M1)
+* Cheng XiaoFan (M1)
 
+#### Alumni
+
+* Rin Suzuki (2026)
 
 
 ## Location
