@@ -14,7 +14,7 @@ Years refer to the Japanese fiscal year (April to March).
 
 * Ryo Nakamura and Koshi Eguchi. How Helpful is LLM Assistance in Network Operations? A Case Study at a Large Demonstration Network. NOMS 2026 IEEE Network Operations and Management Symposium, Roma, Italy, May 2026.
 
-* Takashi Tomine, Ryo Nakamura, and Satoshi Uda. Exploring Geographical Interconnections between National Research and Education Networks. In the 29th Conference on Innovation in Clouds, Internet and Networks (ICIN 2026), Athens, Greece, April 2026.
+* Takashi Tomine, Ryo Nakamura, and Satoshi Uda. Exploring Geographical Interconnections between National Research and Education Networks. 2026 29th Conference on Innovation in Clouds, Internet and Networks (ICIN), Athens, Greece, April 2026, pp. 1-5.
 
 
 ### 2025
