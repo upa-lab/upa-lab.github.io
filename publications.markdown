@@ -12,6 +12,8 @@ Years refer to the Japanese fiscal year (April to March).
 
 ### 2026
 
+*  Kaito Sawada, Ryo Nakamura, Hiroki Watanabe, Katsuhiro Horiba, and Keisuke Uehara. IP-Native User Plane Control for Decentralized Mobile Systems. 2026 35th International Conference on Computer Communications and Networks (ICCCN), Hawaii, USA, July 2026
+
 * Ryo Nakamura, Hiroki Kano, and Tomoko Okuzawa. Host-Driven Flowlet Balancing with Segment Routing over IPv6. 2026 IEEE 27th International Conference on High Performance Switching and Routing (HPSR), Montreal, Canada, June 2026
 
 * Ryo Nakamura and Koshi Eguchi. How Helpful is LLM Assistance in Network Operations? A Case Study at a Large Demonstration Network. NOMS 2026 IEEE Network Operations and Management Symposium, Roma, Italy, May 2026.
