@@ -12,6 +12,8 @@ Years refer to the Japanese fiscal year (April to March).
 
 ### 2026
 
+* Ryusei Shiiba, Ryo Nakamura, Yohei Kuga, Satoru Kobayashi, Osamu Akashi, Hiroki Shirokura, Kensuke Fukuda, Symbolic Extraction of Packet Forwarding Behaviors to Identify Causes and Impacts of Network Failures, Journal of Information Processing, 2026, 34 巻, p. 898-912, Online ISSN 1882-6652, https://doi.org/10.2197/ipsjjip.34.898 
+
 *  Kaito Sawada, Ryo Nakamura, Hiroki Watanabe, Katsuhiro Horiba, and Keisuke Uehara. IP-Native User Plane Control for Decentralized Mobile Systems. 2026 35th International Conference on Computer Communications and Networks (ICCCN), Hawaii, USA, July 2026
 
 * Ryo Nakamura, Hiroki Kano, and Tomoko Okuzawa. Host-Driven Flowlet Balancing with Segment Routing over IPv6. 2026 IEEE 27th International Conference on High Performance Switching and Routing (HPSR), Montreal, Canada, June 2026
