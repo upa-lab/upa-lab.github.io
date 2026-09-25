@@ -12,6 +12,8 @@ Years refer to the Japanese fiscal year (April to March).
 
 ### 2026
 
+* 遠峰 隆史, 中村 遼, 宇多 仁. 研究教育ネットワーク間の継続監視ダッシュボードの開発. 研究報告インターネットと運用技術, 2026-IOT-75, 19, p. 1-7, 2026年9月
+
 * Ryusei Shiiba, Ryo Nakamura, Yohei Kuga, Satoru Kobayashi, Osamu Akashi, Hiroki Shirokura, Kensuke Fukuda, Symbolic Extraction of Packet Forwarding Behaviors to Identify Causes and Impacts of Network Failures, Journal of Information Processing, 2026, 34 巻, p. 898-912, Online ISSN 1882-6652, https://doi.org/10.2197/ipsjjip.34.898 
 
 *  Kaito Sawada, Ryo Nakamura, Hiroki Watanabe, Katsuhiro Horiba, and Keisuke Uehara. IP-Native User Plane Control for Decentralized Mobile Systems. 2026 35th International Conference on Computer Communications and Networks (ICCCN), Hawaii, USA, July 2026
