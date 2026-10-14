@@ -84,6 +84,17 @@ p img { margin: 20px 0px 0px 0px; }
         }
 }
 
+.responsive-content-img-small {
+        width: 60%;
+}
+
+@media (max-width: 768px) {
+        .responsive-content-img-small {
+                width: 90%;
+        }
+}
+
+
 /* Language Switcher Bar */
 .language-switcher-bar {
         background-color: #f5f5f5;

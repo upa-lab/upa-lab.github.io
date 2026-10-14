@@ -52,3 +52,9 @@ Every day, somewhere, someone investigates and fixes network troubles, plans for
 * [An Experiment of SRv6 Service Chaining at Interop Tokyo 2019 ShowNet](https://datatracker.ietf.org/doc/html/draft-upa-srv6-service-chaining-exp-00), Internet Draft
 
 
+<p align="center">
+<img src="{{ '/assets/images/llm-chatbot.png' | relative_url }}" class="responsive-content-img-small">
+</p>
+<p align="center">
+<a href="https://arxiv.org/abs/2605.19627" target="_blank">Evaluating helpfulness of LLM-based chatbot for network operations at ShowNet 2025</a>
+</p>
