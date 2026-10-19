@@ -42,7 +42,7 @@ Information Technology Center, The University of Tokyo, 6-2-3 Kashiwanoha, Kashi
 
 * 東京大学 弥生キャンパス 総合研究棟
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d686.9319969992716!2d139.76007914749957!3d35.71569490111222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c3188bbb81f%3A0xce6df915089abd8a!2z44CSMTEzLTAwMzIg5p2x5Lqs6YO95paH5Lqs5Yy65byl55Sf77yR5LiB55uu77yRIOe3j-WQiOeglOeptuajnw!5e0!3m2!1sja!2sjp!4v1791966039835!5m2!1sja!2sjp" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1619.7036854942603!2d139.7588182!3d35.7161986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c3188bbb81f%3A0xce6df915089abd8a!2z44CSMTEzLTAwMzIg5p2x5Lqs6YO95paH5Lqs5Yy65byl55Sf77yR5LiB55uu77yRIOe3j-WQiOeglOeptuajnw!5e0!3m2!1sja!2sjp!4v1792374761942!5m2!1sja!2sjp" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 <br/>
 
