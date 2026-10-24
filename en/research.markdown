@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Research
-header_image: /assets/images/shownet.jpg
 permalink: /research/
 lang: en
 ---

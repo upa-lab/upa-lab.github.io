@@ -40,6 +40,19 @@ default_lang: "ja"
 exclude_from_localization: ["assets/"]
 parallel_localization: true
 
+# Order of the links in the header nav bar. Without this, minima lists
+# site.pages in path order. The ja and en paths are interleaved in pairs:
+# only one of each pair exists in a given language build, and minima skips
+# the paths it cannot find.
+header_pages:
+  - index.markdown
+  - en/index.markdown
+  - research.markdown
+  - en/research.markdown
+  - publications.markdown
+  - location.markdown
+  - en/location.markdown
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
