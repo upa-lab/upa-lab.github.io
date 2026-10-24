@@ -11,8 +11,8 @@ Ryo Nakamura Laboratory focuses on data communication networks and system softwa
 Our research areas include the Internet, routing technologies, network virtualization, high-performance networks, and network subsystems of Operating Systems. With a focus on technologies that constitute data communication networks represented by the Internet, we conduct research aimed at further advancing and enhancing network functionality and performance.
 
 <div class="row-container">
-<a class="link-box" href="{{ '/research/' | relative_url }}">Recent Research</a>
-<a class="link-box" href="{{ '/publications/' | relative_url }}">Publication List</a>
+<a class="link-box" href="{{ '/research/' | relative_url }}"><span class="material-symbols-outlined" aria-hidden="true">terminal</span>Recent Research</a>
+<a class="link-box" href="{{ '/publications/' | relative_url }}"><span class="material-symbols-outlined" aria-hidden="true">book_4</span>Publication List</a>
 </div>
 
 

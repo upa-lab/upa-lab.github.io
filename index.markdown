@@ -11,8 +11,8 @@ lang: ja
 主な研究分野は、インターネット、情報通信ネットワーク、経路制御技術、ネットワーク仮想化、高性能ネットワーク、システムソフトウェア、OSネットワークサブシステムなどです。インターネットに代表される情報通信ネットワークを構成する技術を主眼に、ネットワークの更なる高度化と高性能化を目指して研究を行っています。
 
 <div class="row-container">
-<a class="link-box" href="{{ '/research/' | relative_url }}">Recent Research</a>
-<a class="link-box" href="{{ '/publications/' | relative_url }}">Publication List</a>
+<a class="link-box" href="{{ '/research/' | relative_url }}"><span class="material-symbols-outlined" aria-hidden="true">terminal</span>Recent Research</a>
+<a class="link-box" href="{{ '/publications/' | relative_url }}"><span class="material-symbols-outlined" aria-hidden="true">book_4</span>Publication List</a>
 </div>
 
 
