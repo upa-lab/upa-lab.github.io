@@ -83,8 +83,18 @@ div.row-container a.link-box {
 
 /* footer */
 
+.footer-col-wrapper a {
+    color: $grey-color;
+}
+
+.footer-col-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer-full {
-    width: 100%;
+    flex: 1;
     text-align: right;
 }
 
@@ -118,6 +128,15 @@ div.row-container a.link-box {
         }
 
         div.row-container div.img img {
+                width: 100%;
+        }
+
+        .footer-col-wrapper {
+                flex-direction: column;
+                align-items: stretch;
+        }
+
+        .footer-col {
                 width: 100%;
         }
 }
