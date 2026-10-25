@@ -1,0 +1,36 @@
+{%- comment -%}
+Renders one research item as a .research-box.
+
+  {% include research-box.html slug="epe-msmt-ja" %}
+
+The item is a document of the research collection (_research/<slug>.md,
+with -ja / -en in the slug); its front matter
+carries title / image / image_class / alt / links, and its body is the
+description. figure_position: top stacks the figure above the text
+instead of placing it on the left. Collections are declared with output: false, so the body is
+still raw markdown here and has to go through markdownify.
+{%- endcomment -%}
+{%- assign item = site.research | where: "slug", include.slug | first -%}
+
+<div class="research-box{% if item.figure_position == 'top' %} research-box-stacked{% endif %}">
+  <h4 class="research-box-title">{{ item.title }}</h4>
+  <div class="row-container">
+    <div class="research-box-figure">
+      <img {% if item.image_class %}class="{{ item.image_class }}" {% endif %}
+	   src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
+    </div>
+    <div class="research-box-text">
+      {{ item.content | markdownify }}
+    </div>
+  </div>
+
+  {%- if item.links %}
+  <ul class="research-box-links">
+    {%- for link in item.links %}
+    <li><a href="{{ link.url }}" target="_blank" rel="noopener">
+	{{ link.label }}</a>{% if link.note %} {{ link.note }}{% endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+</div>

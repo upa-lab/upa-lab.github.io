@@ -38,12 +38,21 @@ google_analytics: G-44SYW2SJCC
 languages: [ "ja", "en" ]
 default_lang: "ja"
 exclude_from_localization: ["assets/"]
-parallel_localization: true
+# false: forking a subprocess per language races with reading the
+# research collection, which silently renders empty research boxes.
+# No speed benefit at this site size either (0.57s vs 0.67s per build).
+parallel_localization: false
 
 # Order of the links in the header nav bar. Without this, minima lists
 # site.pages in path order. The ja and en paths are interleaved in pairs:
 # only one of each pair exists in a given language build, and minima skips
 # the paths it cannot find.
+# One research item per file, rendered by _includes/research-box.html.
+# output: false because the items are only embedded in the Research page.
+collections:
+  research:
+    output: false
+
 header_pages:
   - index.markdown
   - en/index.markdown
@@ -72,3 +81,5 @@ header_pages:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - exclude

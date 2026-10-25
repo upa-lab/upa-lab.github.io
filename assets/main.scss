@@ -11,7 +11,7 @@ $column-bg-color: #f6f6f6;
 @import "{{ site.theme }}";
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 20px 0 15px 0;
+    margin: 15px 0 15px 0;
     font-weight: 450;
 }
 
@@ -106,6 +106,71 @@ div.row-container a.link-box {
     background-color: #efefef;
 }
 
+/* research item */
+.research-box {
+        margin: 30px 0;
+        padding: 20px;
+        border: 1px solid $grey-color-light;
+        border-radius: 15px;
+        background-color: $page-bg-color;
+}
+
+.research-box-title {
+    margin: 5px;
+    text-align: left;
+}
+
+.research-box-figure {
+    margin: 10px;
+    flex: 0 0 auto;
+}
+
+/* fixed height, width follows the image aspect ratio, so the figure does
+   not scale with the window width */
+.research-box-figure img {
+        display: block;
+        height: 11em;
+        width: auto;
+        max-width: 100%;
+        object-fit: contain;
+}
+
+/* per-figure height modifiers; put one of these on the <img> itself.
+   Scoped to img so they override the default above (same specificity,
+   later in the file), while the mobile rules below still win. */
+@each $h in 8, 11, 14, 16, 20, 24 {
+        img.height-#{$h}em {
+                height: #{$h}em;
+        }
+}
+
+.research-box-text {
+        flex: 1;
+}
+
+/* figure_position: top -- figure above the text, full box width */
+.research-box-stacked .row-container {
+        flex-direction: column;
+        align-items: stretch;
+}
+
+.research-box-stacked .research-box-figure img {
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.research-box-text p:last-child {
+        margin-bottom: 0;
+}
+
+.research-box-links {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 0;
+}
+
 /* footer */
 
 .footer-col-wrapper a {
@@ -153,6 +218,16 @@ div.row-container a.link-box {
         }
 
         div.row-container div.img img {
+                width: 100%;
+        }
+
+        .research-box-figure,
+        .research-box-text {
+                width: 100%;
+        }
+
+        .research-box-figure img {
+                height: auto;
                 width: 100%;
         }
 

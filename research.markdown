@@ -11,15 +11,11 @@ lang: ja
 
 ネットワークにおいて、パケットを適切な宛先へより効率的に運ぶための仕組みが経路制御(Routing)です。ネットワークのあり方は、総体としてのインターネットだけでなく、通信事業者のキャリアネットワーク、大規模なデータセンターネットワーク、5Gなどのモバイルネットワーク、エンタープライズ環境のようなキャンパスネットワークなど多種多様であり、それぞれに異なる技術的な要件と課題があり、必要なRoutingや機能も異なります。そうした様々なネットワークにおける課題や機能の高度化に取り組んでいます。
 
-* データセンターネットワークにおけるロードバランサの研究: [Exploiting SRv6 for Stateless and Per-Connection-Consistent Load Balancing](https://ieeexplore.ieee.org/document/10555263)
-* インターネット全体のBGP Pathのレイテンシ計測: [A First Measurement with BGP Egress Peer Engineering](https://link.springer.com/chapter/10.1007/978-3-030-98785-5_9)
 
-<p align="center">
-<img src="{{ '/assets/images/research-epe-msmt.png' | relative_url }}" class="responsive-content-img">
-</p>
-<p align="center">
-<a href="https://blog.apnic.net/2022/03/10/measuring-the-potential-benefit-of-egress-traffic-engineering-with-segment-routing/" target="_blank">Measuring the Internet with BGP-EPE over Segment Routing</a>
-</p>
+{% include research-box.html slug="epe-msmt-ja" %}
+
+{% include research-box.html slug="srv6-ja" %}
+
 
 
 ### System Software and Network Subsystem
@@ -30,15 +26,7 @@ lang: ja
 * PCIe Transaction Layerをover-IPでSoftwareで実装: [NetTLP: A Development Platform for PCIe devices in Software Interacting with Hardware](https://www.usenix.org/conference/nsdi20/presentation/kuga)
 * 複数SSHコネクションを用いる高速ファイル転送ツール: [Multi-threaded scp: Easy and Fast File Transfer over SSH](https://dl.acm.org/doi/10.1145/3569951.3597582)
 
-
-<p align="center">
-<img src="{{ '/assets/images/research-mscp.png' | relative_url }}" class="responsive-content-img">
-</p>
-<p align="center">
-  mscp (<a href="https://github.com/upa/mscp" target="_blank">https://github.com/upa/mscp</a>) copies files over multiple SSH connections.
-</p>
-
-
+{% include research-box.html slug="mscp-ja" %}
 
 ### Network Operation
 
@@ -50,9 +38,4 @@ lang: ja
 * [Segment Routing Deployments and Demonstrations at Interop Tokyo ShowNet](https://2024.apricot.net/assets/files/APIC378/shownet-apricot-sr_1709207447.pdf), Asia Pacific Regional Internet Conference on Operational Technologies (APRICOT) 2024
 * [An Experiment of SRv6 Service Chaining at Interop Tokyo 2019 ShowNet](https://datatracker.ietf.org/doc/html/draft-upa-srv6-service-chaining-exp-00), Internet Draft
 
-<p align="center">
-<img src="{{ '/assets/images/llm-chatbot.png' | relative_url }}" class="responsive-content-img-small">
-</p>
-<p align="center">
-<a href="https://arxiv.org/abs/2605.19627" target="_blank">Evaluating helpfulness of LLM-based chatbot for network operations at ShowNet 2025</a>
-</p>
+{% include research-box.html slug="llm-ops-ja" %}
