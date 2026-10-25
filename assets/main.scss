@@ -169,6 +169,10 @@ div.row-container a.link-box {
         width: 100%;
         margin-top: 15px;
         margin-bottom: 0;
+        /* no marker: the box already groups these. margin-left is kept
+           so the text stays where a marked list would put it. */
+        list-style: none;
+        margin-left: $spacing-unit;
 }
 
 /* footer */

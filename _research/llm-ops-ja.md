@@ -5,7 +5,7 @@ image_class: height-20em
 alt: An LLM-based chatbot with RAG, CLI access to routers and switches over MCP, and a ticket system, used by operators on ShowNet
 links:
   - label: "How Helpful is LLM Assistance in Network Operations? A Case Study at a Large Demonstration Network"
-    note: (arXiv)
+    note: (IEEE NOMS 2026)
     url: https://arxiv.org/abs/2605.19627
   - label: LLMでネットワーク構築運用支援実験@Interop Tokyo 2025 ShowNet
     note: (JANOG56)

@@ -5,7 +5,9 @@ image_class: height-16em
 alt: Host S steers packets of a flow onto Spine 1 or Spine 2 by encapsulating them to SID 1 or SID 2 with SRv6
 links:
   - label: Host-Driven Flowlet Balancing with Segment Routing over IPv6
+    note: (IEEE HPSR 2026)
     url: https://arxiv.org/abs/2606.27697
+
   - label: Exploiting SRv6 for Stateless and Per-Connection-Consistent Load Balancing
     url: https://ieeexplore.ieee.org/document/10555263
 ---

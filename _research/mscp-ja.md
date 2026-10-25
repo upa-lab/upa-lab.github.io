@@ -5,7 +5,7 @@ figure_position: top
 alt: mscp splits source files into chunks and sends them through multiple SSH connections to sshd and sftp on the destination
 links:
   - label: "Multi-threaded scp: Easy and Fast File Transfer over SSH"
-    note: 
+    note: (ACM PEARC 2023)
     url: https://dl.acm.org/doi/10.1145/3569951.3597582
   - label: github.com/upa/mscp
     url: https://github.com/upa/mscp

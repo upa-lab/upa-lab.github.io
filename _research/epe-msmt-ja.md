@@ -4,6 +4,7 @@ image: /assets/images/epe-msmt.png
 alt: Pings sent from our AS out through each eBGP peer to the Internet
 links:
   - label: A First Measurement with BGP Egress Peer Engineering
+    note: (PAM 2021)
     url: https://link.springer.com/chapter/10.1007/978-3-030-98785-5_9
 
   - label: Measuring the potential benefit of egress traffic engineering with Segment Routing
