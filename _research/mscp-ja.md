@@ -5,11 +5,11 @@ figure_position: top
 alt: mscp splits source files into chunks and sends them through multiple SSH connections to sshd and sftp on the destination
 links:
   - label: "Multi-threaded scp: Easy and Fast File Transfer over SSH"
-    note: (PEARC '23)
+    note: 
     url: https://dl.acm.org/doi/10.1145/3569951.3597582
-  - label: upa/mscp
-    note: (GitHub)
+  - label: github.com/upa/mscp
     url: https://github.com/upa/mscp
 ---
 
-Copying a large dataset over SSH is limited by a single connection: one TCP stream and one thread doing the crypto. mscp splits the transfer across multiple SSH connections and threads, sending chunks of the same file, and multiple files, in parallel. It needs nothing on the remote side beyond a standard sshd with the SFTP subsystem, and it is used like scp. The tool is open source and available for Linux, macOS, and FreeBSD.
+大量のデータをより高速にネットワーク越しに転送することは、コンピュータサイエンスをはじめ様々な分野で不可欠な、基本的な操作です。高速なデータ転送を手軽に実現するツールとして、mscpというツールを開発しています。mscpは複数のSSHコネクションを使って並列にデータを転送することで、通常のscpコマンドと同じ使い勝手で高速なファイル転送を実現します。mscpはオープンソースソフトウェアとして保守されており、LinuxとmacOSで利用できます。
+

@@ -22,10 +22,6 @@ lang: ja
 
 ネットワークごしにパケットを送受信するコンピュータ、より具体的に言えばNetwork Interface CardなどのPeripheralデバイスや、Operating Systemによるパケット処理そのもの(Network I/O)も研究対象です。OSのパケット処理機構への機能の追加や、アプリケーション側の工夫によって、使い勝手や性能を向上するための研究にも取り組んでいます。
 
-* コンテナネットワークスタックの高速化: [Grafting Sockets for Fast Container Networking](https://dl.acm.org/doi/10.1145/3230718.3230723)
-* PCIe Transaction Layerをover-IPでSoftwareで実装: [NetTLP: A Development Platform for PCIe devices in Software Interacting with Hardware](https://www.usenix.org/conference/nsdi20/presentation/kuga)
-* 複数SSHコネクションを用いる高速ファイル転送ツール: [Multi-threaded scp: Easy and Fast File Transfer over SSH](https://dl.acm.org/doi/10.1145/3569951.3597582)
-
 {% include research-box.html slug="mscp-ja" %}
 
 ### Network Operation
@@ -34,8 +30,5 @@ lang: ja
 
 今日もどこかで誰かが、ネットワークに問題があればその原因を特定して修正し、将来に向けた設計を行い、必要に応じて拡張したりと、日々の運用を担っています。こうしたネットワークの運用を楽にするための研究にも取り組んでいます。とくに近年は生成AIのネットワーク運用への活用についても取り組んでいます。
 
-* [LLMでネットワーク構築運用支援実験@Interop Tokyo 2025 ShowNet](https://www.janog.gr.jp/meeting/janog56/shownet/),  JANOG56 Meeting
-* [Segment Routing Deployments and Demonstrations at Interop Tokyo ShowNet](https://2024.apricot.net/assets/files/APIC378/shownet-apricot-sr_1709207447.pdf), Asia Pacific Regional Internet Conference on Operational Technologies (APRICOT) 2024
-* [An Experiment of SRv6 Service Chaining at Interop Tokyo 2019 ShowNet](https://datatracker.ietf.org/doc/html/draft-upa-srv6-service-chaining-exp-00), Internet Draft
 
 {% include research-box.html slug="llm-ops-ja" %}
