@@ -29,6 +29,8 @@ lang: ja
 
 {% include member.markdown %}
 
+<br/>
+
 
 ## 研究室を志望する学生さんへ
         

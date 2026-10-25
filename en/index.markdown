@@ -29,7 +29,7 @@ Our research areas include the Internet, routing technologies, network virtualiz
 
 {% include member.markdown %}
 
-
+<br/>
 
 ## For Prospective Students
 
