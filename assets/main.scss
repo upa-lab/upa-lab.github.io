@@ -166,7 +166,6 @@ div.row-container a.link-box {
 }
 
 .research-box-links {
-        width: 100%;
         margin-top: 15px;
         margin-bottom: 0;
         /* no marker: the box already groups these. margin-left is kept
@@ -203,7 +202,10 @@ div.row-container a.link-box {
     padding-bottom: 0;
 }
 
-/* Mobile responsive */
+/* Mobile responsive.
+   Stacked items use align-self: stretch rather than width: 100%; the theme
+   leaves box-sizing at content-box, so an explicit 100% width adds the
+   element's own margin and padding on top and overflows the container. */
 @media (max-width: 768px) {
         .wrapper {
                 max-width: 90%;
@@ -214,11 +216,11 @@ div.row-container a.link-box {
         }
 
         div.row-container div.img {
-                width: 100%;
+                align-self: stretch;
         }
 
         div.row-container a.link-box {
-                width: 100%;
+                align-self: stretch;
         }
 
         div.row-container div.img img {
@@ -227,7 +229,7 @@ div.row-container a.link-box {
 
         .research-box-figure,
         .research-box-text {
-                width: 100%;
+                align-self: stretch;
         }
 
         .research-box-figure img {
